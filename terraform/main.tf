@@ -3,8 +3,8 @@ provider "aws" {
 }
 
 resource "aws_instance" "game_server" {
-  ami           = "ami-019715e0d74f695be" 
-  instance_type = "t3.micro"
+  ami           = "ami-0317b0f0a0144b137" 
+  instance_type = "t3.small"
   key_name      = "jenkinskkp"
 
   security_groups = [aws_security_group.game-sg-jenkins.name]

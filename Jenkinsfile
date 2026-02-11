@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/satheeshm5465-aws/ci-cd-game'
+                git branch: 'main', url: 'https://github.com/MeharunshiyaSudhakar/ci-cd-game/edit/main/terraform/main.tf#L6C20-L6C40'
             }
         }
 
